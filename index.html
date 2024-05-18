@@ -52,8 +52,19 @@
           <label for="spaces">Include Spaces</label>
         </li>
       </ul>
+    <div class="character-controls">
+      <label>Lowercase: <input type="number" class="lowercase-count" min="0" value="1"></label> <br>
+      <label>Uppercase: <input type="number" class="uppercase-count" min="0" value="1"></label> <br>
+      <label>Numbers: <input type="number" class="number-count" min="0" value="1"></label> <br>
+      <label>Symbols: <input type="number" class="symbol-count" min="0" value="1"></label>
+    </div>
     </div>
     <button class="generate-btn">Generate Password</button>
+    <span class="pass-strength-text"></span>
+    <div class="down-button">
+      <button class="save-btn">Save Password</button>
+      <button class="export-btn">Export Password</button>
+    </div>
   </div>
 </div>
   <script  src="./script.js"></script>
