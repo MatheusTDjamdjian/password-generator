@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: linear-gradient(to right, red, orange, yellow, white);
+    background-image: linear-gradient(to right, blue, purple, black);
   }
   .container {
     width: 430px;
